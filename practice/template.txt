@@ -1,0 +1,25 @@
+decleared :                     getting input:                          output:
+
+vector<int> v;                 v.push_back(x);                      v.pop_back();
+map<int, int>mp;                mp.insert(x,y);                     (*ii).first &(*ii).second
+stack<int>s;                    s.push(X);                           s.top(), then delet s.pop()
+pair<int,int>p[100];           p.insert(p.first,p.second);
+string ss;
+queue<int> q;                  q.push();                             q.front() then delete q.pop();
+
+sort(a,a+n); sort(v.begin(),v.end()); sort(ss.begin(),ss.end());        swap(v,v2);
+search....binary_search(a,a+n,3); binary_search(v.begin(),v.end(),3);
+
+lenght of string........
+ss.lenght();
+ss.compare(ss1)==0
+ss.substr(position,position)
+
+decleared iterator:
+
+vector<int>::iterator ii;
+
+use iterator:
+for(ii=v.begin();ii!=v.end();++ii)
+cout<<*ii<<endl;
+
